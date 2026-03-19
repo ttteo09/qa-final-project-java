@@ -1,0 +1,15 @@
+TEST: Verificare TODO Item via JSONPlaceholder API
+
+ARRANGE:
+- URL: https://jsonplaceholder.typicode.com/todos/1
+- Method: GET
+- Headers: Accept = application/json
+
+ACT:
+- Execută cererea HTTP GET către URL-ul specificat.
+- Capturează codul de status al răspunsului și corpul JSON.
+
+ASSERT:
+- Verifică dacă status code este egal cu 200.
+- Verifică dacă JSON-ul conține câmpul "title".
+- Verifică dacă valoarea câmpului "title" nu este null sau goală.
