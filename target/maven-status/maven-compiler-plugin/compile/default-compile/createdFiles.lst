@@ -1,0 +1,9 @@
+Validator.class
+Platforma.class
+com/teodora/homework/TestConfigRunner.class
+RegistrationTest.class
+com/qaschool/validators/PostValidator.class
+User.class
+com/teodora/homework/BrowserConfig.class
+com/teodora/homework/UsernameValidator.class
+com/teodora/homework/BrowserType.class

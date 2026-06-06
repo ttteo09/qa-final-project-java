@@ -1,0 +1,13 @@
+com/qaschool/api/tests/UserLifecycleTest.class
+com/qaschool/pages/FeedPage.class
+com/qaschool/api/models/UserResponse.class
+com/qaschool/hooks/Hooks.class
+com/qaschool/api/utils/DataGenerator.class
+com/qaschool/pages/ProfilePage.class
+com/qaschool/stepdefinitions/FeedSteps.class
+com/qaschool/api/models/UserRequest.class
+com/qaschool/runners/TestRunner.class
+com/qaschool/validators/PostValidatorTest.class
+com/qaschool/stepdefinitions/ProfileSteps.class
+com/qaschool/stepdefinitions/LoginSteps.class
+com/qaschool/pages/LoginPage.class

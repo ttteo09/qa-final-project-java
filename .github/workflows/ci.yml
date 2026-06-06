@@ -1,0 +1,32 @@
+name: Executie Teste Automate CI
+
+on:
+  push:
+    branches: [ "main", "master", "tema13-hapifyme-validator" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  testare-proiect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout cod din repository
+        uses: actions/checkout@v4
+
+      - name: Setare JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'maven'
+
+      - name: Rulare Teste Automatizate
+        run: mvn test
+
+      - name: Salvare Artefact (Rezultate Teste)
+        if: always() # Rulează chiar dacă testele pică, ca să poți descărca raportul cerut la temă
+        uses: actions/upload-artifact@v4
+        with:
+          name: rezultate-teste-maven
+          path: target/surefire-reports/

@@ -1,0 +1,13 @@
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/api/models/UserRequest.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/api/models/UserResponse.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/api/tests/UserLifecycleTest.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/api/utils/DataGenerator.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/hooks/Hooks.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/pages/FeedPage.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/pages/LoginPage.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/pages/ProfilePage.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/runners/TestRunner.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/stepdefinitions/FeedSteps.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/stepdefinitions/LoginSteps.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/stepdefinitions/ProfileSteps.java
+/Users/dasistteo/Desktop/qa-final-project-java-main/src/test/java/com/qaschool/validators/PostValidatorTest.java
